@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import axios from "axios";
 import DataFrameViewer from "./components/DataFrameViewer";  // Composant d'affichage JSON
 
-const API_URL = "http://localhost:8000";  // DOIT être "backend" pour Docker
+const API_URL = "https://dep-app-msag.onrender.com";  // DOIT être "backend" pour Docker
 
 
 
